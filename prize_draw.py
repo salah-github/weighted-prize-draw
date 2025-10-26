@@ -151,7 +151,7 @@ def main():
         print("No winners selected.")
     else:
         for i, w in enumerate(winners, 1):
-            time.sleep(2)
+            time.sleep(5)
             print(f"🏆 Winner {i}: {w}")
         print("\nAll winners have been drawn.")
 
@@ -163,7 +163,7 @@ def main():
         command = input("\nType 'exit' and press Enter to close the program: ").strip().lower()
         if command == "exit":
             print("Exiting program. Goodbye!")
-            time.sleep(1)
+            time.sleep(3)
             break
         else:
             print("Invalid input. Please type 'exit' to close.")
